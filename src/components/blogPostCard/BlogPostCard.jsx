@@ -35,7 +35,7 @@ function BlogPostCard() {
                             ' 4px solid rgb(226, 232, 240)'
                             : ' 4px solid rgb(30, 41, 59)'
                         }}
-                        className={`h-full shadow-lg  hover:-translate-y-1 cursor-pointer hover:shadow-gray-400
+                        className={`h-full shadow-lg 
                         ${mode === 'dark'
                             ? 'shadow-gray-700'
                             : 'shadow-xl'
