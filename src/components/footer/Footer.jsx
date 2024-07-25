@@ -12,24 +12,24 @@ function Footer() {
                 <div className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
                     {/* logo  */}
                     <img className='w-10'
-                        src="https://cdn-icons-png.flaticon.com/128/3685/3685253.png" alt="logo"
+                        src="https://i.pinimg.com/originals/bf/cc/9e/bfcc9e3993adbd93523a546df608b47a.png" alt="logo"
                     />
                     {/* logo text  */}
                     <span className="ml-3 text-xl text-white">
-                        Devknus
+                        BlogHub
                     </span>
                 </div>
 
                 {/* items  */}
                 <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
-                    © 2023 Devknus —
+                    © 2023 BlogHub —
                     <a
                         href="https://twitter.com/knyttneve"
                         className="text-gray-600 ml-1"
                         rel="noopener noreferrer"
                         target="_blank"
                     >
-                        @devknus
+                        @bloghub
                     </a>
                 </p>
                 

@@ -86,11 +86,11 @@ export default function Nav() {
                             {/* Logo Image  */}
                             <img
                                 className=' w-10 h-10 '
-                                src='https://cdn-icons-png.flaticon.com/128/3685/3685253.png'
+                                src='https://i.pinimg.com/originals/bf/cc/9e/bfcc9e3993adbd93523a546df608b47a.png'
                             />
                             {/* Logo Text  */}
                             <span>
-                                Devknus
+                                BlogHub
                             </span>
                         </Typography>
                     </Link>
@@ -121,7 +121,7 @@ export default function Nav() {
                                 <div className="">
                                     <Avatar
                                         key={1}
-                                        src={'https://cdn-icons-png.flaticon.com/128/3135/3135715.png'}
+                                        src={'https://tse2.mm.bing.net/th?id=OIP.F5myvH0zxy1NwtEUT68uCgHaHa&pid=Api&P=0&h=180'}
                                         alt="avatar"
                                         withBorder={true}
                                         className="p-0.5 text-red-500 w-10 h-10"

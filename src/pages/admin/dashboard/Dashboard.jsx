@@ -133,12 +133,12 @@ function Dashboard() {
 
                                                     {/* Blog Title */}
                                                     <td style={{ color: mode === 'dark' ? 'white' : 'black' }} className="px-6 py-4">
-                                                        {item.blogs.title}
+                                                        {item?.blogs?.title}
                                                     </td>
 
                                                     {/* Blog Category */}
                                                     <td style={{ color: mode === 'dark' ? 'white' : 'black' }} className="px-6 py-4">
-                                                        {item.blogs.category}
+                                                        {item?.blogs?.category}
                                                     </td>
 
                                                     {/* Blog Date */}
