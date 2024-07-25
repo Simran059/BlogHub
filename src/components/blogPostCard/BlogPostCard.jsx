@@ -43,7 +43,7 @@ function BlogPostCard() {
                         rounded-xl overflow-hidden`} 
                       >
                         {/* Blog Thumbnail  */}
-                        <img onClick={() => navigate(`/bloginfo/${id}`)} className=" w-full" src={thumbnail} alt="blog" />
+                        <img onClick={() => navigate(`/bloginfo/${id}`)} className=" w-full h-60" src={thumbnail} alt="blog" />
 
                         {/* Top Items  */}
                         <div className="p-6">
@@ -97,7 +97,8 @@ function BlogPostCard() {
                   ?
                   'rgb(30, 41, 59)'
                   : 'rgb(226, 232, 240)'
-              }}>
+              }}
+              onClick={() => navigate('/allblogs')}>
               See More
             </Button>
           </div>

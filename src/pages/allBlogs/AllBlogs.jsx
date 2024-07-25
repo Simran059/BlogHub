@@ -48,7 +48,7 @@ function AllBlogs() {
                                                 rounded-xl overflow-hidden`} 
                                             >
                                                 {/* Blog Thumbnail  */}
-                                                <img onClick={() => navigate(`/bloginfo/${id}`)} className=" w-full" src={thumbnail} alt="blog" />
+                                                <img onClick={() => navigate(`/bloginfo/${id}`)} className=" w-full h-60" src={thumbnail} alt="blog" />
 
                                                 {/* Top Items  */}
                                                 <div className="p-6">
@@ -76,7 +76,7 @@ function AllBlogs() {
                                                             ? 'rgb(226, 232, 240)'
                                                             : ' rgb(30, 41, 59)'
                                                     }}>
-                                                        Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.
+                                                        
                                                     </p>
                                                 </div>
                                             </div>
